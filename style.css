@@ -1,0 +1,239 @@
+:root{
+    --color1:rgba(16, 137, 255,0.3);
+    --color2:rgba(4, 137, 152,0.3);
+    --color3:rgba(0, 168, 181,0.3);
+    --color4:rgba(255, 89, 89,0.3);
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    color: #222222;
+}
+.customnav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+.customnavlink{
+    color: #fff !important;
+}
+.banner{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('assests/imgs/slidebg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.customborder{
+    border-radius: 20px;
+    border: 1px solid #fff;
+    width: 75%;
+    text-shadow: 1px 1px 2px rgb(96, 95, 95);
+}
+.customborder>p{
+    font-size: 1.1rem;
+}
+.fullheight{
+    height: 100% !important;
+}
+.hbr1,.hbr2,.hbr3,.hbr4{
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.hbr1{
+    background-image: url('assests/imgs/hbr1.jpg');
+}
+.hbr2{
+    background-image: url('assests/imgs/hbr2.jpg');
+}
+.hbr3{
+    background-image: url('assests/imgs/hbr3.jpg');
+}
+.hbr4{
+    background-image: url('assests/imgs/hbr4.jpg');
+}
+.hbra{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    flex-direction: column;
+    text-shadow: 1px 1px 1px black;
+}
+.hbra:hover{
+    color: #fff;
+}
+.hbra1{
+    background-color: var(--color1);
+}
+.hbra2{
+    background-color: var(--color2);
+}
+.hbra3{
+    background-color: var(--color3);
+
+}
+.hbra4{
+    background-color: var(--color4);
+}
+.customlogo{
+    color: #008080;
+}
+.custombtn{
+    background-color: #008080;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+.customborder2{
+    border-top: 5px solid #008080;
+}
+.customborder22{
+    border-bottom: 5px solid #008080;
+
+}
+.customborder3{
+    border-top: 5px solid #222222;
+}
+.mimg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.mimg>img:hover{
+scale: 1.02;
+}
+.custombadge{
+    background-color: #008080;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0 15px 15px 0px;
+    position: absolute;
+    left: 2px;
+    top: 10px;
+}
+.himgmodal{
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+    padding: 10%;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.mclsbtn{
+    right: 9%;
+    top:10vh;
+}
+#hmodalimg{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+}
+.fcustombg{
+    background-color: #008080;
+    color: #fff;
+width: 100%;
+    overflow-x: hidden;
+}
+/* CONTACT */
+.cbanner{
+    background-image: url('assests/imgs/cbanner.jpg');
+}
+.cbanner,.bbanner,.bbabanner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    min-height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+.croundi{
+    background-color: #008080;
+    color: #fff;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    text-align: center;
+}
+.mcbtn{
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+}
+.mclr{
+    color: #008080;
+}
+.abimgs{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.myp{
+padding: auto auto !important; 
+}
+/* blog */
+ .bbanner{
+    background-image: url('assests/imgs/bbanner.jpg');
+ }
+ .bbabanner{
+    background-image: url('assests/imgs/bbabanner.jpg');
+ }
+ .cbbtn{
+    background-color: #008080;
+    color: #fff;
+ }
+ .cbbtn:hover{
+    color: #fff;
+ }
+ .orangeh{
+    transition: all 0.2s;
+}
+.orangeh:hover{
+color:  #008080 !important;
+cursor: pointer;
+}
+.mbcimg{
+    border-radius: 10px;
+}
+.myborderl{
+    border-left: 1px solid rgb(221, 220, 214);
+}
+.orange{
+    color: #008080;
+}
+.cgimg{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    border: 2px solid #fff;
+}
+.rating {
+    font-size: 30px;
+    color: #ddd;
+    cursor: pointer;
+  }
+
+  .rated {
+    color: gold;
+  }
+  .hclickimg{
+    cursor: pointer;
+  }
